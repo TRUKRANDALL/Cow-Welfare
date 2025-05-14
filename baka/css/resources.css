@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f3fff4;
+    color: #333;
+}
+
+header {
+    background-color: #5cb85c;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.user-greeting {
+    margin-right: 10px;
+    color: white;
+}
+
+.logout-form {
+    display: inline;
+}
+
+.logout-form button {
+    background: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #5cb85c;
+    border-radius: 3px;
+}
+
+.main-content {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.resource-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 30px 10px;
+}
+
+.resource-card {
+    background: #ffffff;
+    border: 2px solid #d0f0d3;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+    transition: box-shadow 0.3s ease;
+}
+
+.resource-card:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.resource-card h2 {
+    margin-top: 0;
+    color: #388e3c;
+}
+
+.resource-card a {
+    color: #388e3c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #e8f5e9;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
